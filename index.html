@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click and Play</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body id="top">
+    <div class="cyber-bg">
+        <div class="cyber-gradient"></div>
+        <div class="matrix-rain" id="matrixRain"></div>
+    </div>
+    
+    <div class="particles" id="particlesContainer"></div>
+    
+    <div class="data-streams" id="dataStreams"></div>
+    
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    
+    <div class="grid-overlay">
+        <div class="grid-lines"></div>
+        <div class="grid-glow"></div>
+    </div>
+    
+    <div class="scanlines"></div>
+    <div class="noise-overlay"></div>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#top" class="logo">Click and play</a>
+            <ul class="nav-links">
+                <li><a href="#features">Jogos</a></li>
+                <li><a href="#pricing">Preços</a></li>
+                <li><a href="#stats">Status</a></li>
+                <li><a href="#contact">Fale Conosco</a></li>
+            </ul>
+            <div class="nav-bottom">
+                <a href="https://www.instagram.com/click.andplay_/" target="_blank" class="cyber-button">Acesse nosso instagram</a>
+            </div>
+            <button class="mobile-menu-button" id="mobileMenuBtn">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <a href="#top" class="mobile-menu-logo">Click and Play</a>
+            <button class="mobile-menu-close" id="mobileMenuClose">✕</button>
+        </div>
+        <div class="mobile-menu-cta">
+            <a href="https://www.instagram.com/click.andplay_/" class="cyber-button">Acesse nosso Instagram</a>
+        </div>
+        <nav class="mobile-menu-nav">
+            <ul>
+                <li><a href="#features">Jogos</a></li>
+                <li><a href="#pricing">Preços</a></li>
+                <li><a href="#stats">Status</a></li>
+                <li><a href="#contact">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-title">
+                <span class="hero-nexus">CLICK AND</span><span class="hero-flow">PLAY</span>
+            </h1>
+            <p class="hero-subtitle">Um espaço feito para você viver a melhor experiência online. Entre, conecte-se e descubra como cada clique pode se transformar em diversão.</p>
+            <div class="hero-buttons">
+                <a href="https://www.google.com/maps/place/Escola+T%C3%A9cnica+Estadual+Professor+Alc%C3%ADdio+de+Souza+Prado/@-20.7152143,-47.892486,17z/data=!4m6!3m5!1s0x94ba25183e93a9e1:0x976d45481f701809!8m2!3d-20.7152043!4d-47.8911342!16s%2Fg%2F1pwftqkzz?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn-primary">Nosso Endereço</a>
+                <a href="https://api.whatsapp.com/send/?phone=16992861029&text&type=phone_number&app_absent=0" target="_blank"
+                class="btn-secondary">Agende já</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats fade-up" id="stats">
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">Clientes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">300+</span>
+                    <span class="stat-label">Avaliações</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">80K+</span>
+                    <span class="stat-label">R$ em computadores</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Unidades</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features fade-up" id="features">
+        <div class="features-container">
+            <div class="section-header">
+                <h2 class="section-title">Principais Jogos</h2>
+                <p class="section-subtitle">Aqui você encontra os jogos mais jogados do momento! Do competitivo ao casual, temos sempre uma máquina preparada para você entrar na partida e mostrar suas habilidades.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="images/god-of-war.jpg" alt="God of War"></div>
+                    <h3>God of War Ragnarok</h3>
+                    <p>Viva a épica jornada de Kratos e Atreus em batalhas intensas contra deuses e monstros. ⚔️🏹</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="images/fc-25.jpg" alt="Fc 25"></div>
+                    <h3>FC 25</h3>
+                    <p>Entre em campo e mostre suas habilidades no futebol mais realista da atualidade. ⚽🥅</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="images/valorant.jpg" alt="Valorant"></div>
+                    <h3>Valorant</h3>
+                    <p>Competição, estratégia e precisão: forme sua equipe e domine o campo de batalha. 🎯🛡️</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="images/fortnite.jpg" alt="Fortnite"></div>
+                    <h3>Fortnite</h3>
+                    <p>Um mundo em constante mudança, cheio de ação, diversão e criatividade. 🔫🏗️</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="images/cs2.jpeg" alt="Counter Strike 2"></div>
+                    <h3>Counter Strike 2</h3>
+                    <p>O clássico dos FPS renovado: reflexo e trabalho em equipe fazem toda a diferença. 💣🛡️</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="images/gtav.jpg" alt="Grand Theft Auto V"></div>
+                    <h3>Grand Theft Auto V</h3>
+                    <p>Explore o mundo do crime em Los Santos em um universo cheio de ação, liberdade e infinitas possibilidades. 🚓🪴</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing fade-up" id="pricing">
+        <div class="pricing-container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Preços</h2>
+                <p class="section-subtitle">Conheça os nossos planos:</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="plan-name">Noob</div>
+                    <div class="plan-price">R$12</div>
+                    <div class="plan-period">por hora</div>
+                    <ul class="plan-features">
+                        <li>Pc's mais básicos</li>
+                        <li>Processador Intel core i5</li>
+                        <li>SSD de 512GB de armazenamento</li>
+                        <li>Placa de vídeo integrada</li>
+                        <li>Recomendado para uso pessoal e acadêmico</li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send/?phone=16992861029&text&type=phone_number&app_absent=0" target="_blank" class="btn-secondary">Obter</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="plan-name">Pro</div>
+                    <div class="plan-price">R$15</div>
+                    <div class="plan-period">per hora</div>
+                    <ul class="plan-features">
+                        <li>Pc's de boa performance</li>
+                        <li>Processador Ryzen 7 5700X</li>
+                        <li>SSD de 1TB de armazenamento</li>
+                        <li>Placa de Vídeo RTX 3080 10GB</li>
+                        <li>Feito para jogos mais casuais</li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send/?phone=16992861029&text&type=phone_number&app_absent=0" target="_blank" class="btn-primary">Obter Agora</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="plan-name">God</div>
+                    <div class="plan-price">R$20</div>
+                    <div class="plan-period">por hora</div>
+                    <ul class="plan-features">
+                        <li>Pc's mais potentes</li>
+                        <li>Processador Ryzen 9 9950X</li>
+                        <li>SSD de 2TB de armazenamento</li>
+                        <li>Placa de vídeo RTX 4070 Ti Super 16GB</li>
+                        <li>Feito para jogos competitivos em alta qualidade</li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send/?phone=16992861029&text&type=phone_number&app_absent=0" target="_blank" class="btn-secondary">Obter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact fade-up" id="contact">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2 class="section-title">Fale Conosco</h2>
+                <p class="section-subtitle">Caso tenha uma dúvida, fale com a gente!</p>
+            </div>
+            
+            <div class="contact-form-wrapper">
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Insira seu nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="seu-email@exemplo.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Escreva aqui sua mensagem" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-submit">Enviar Mensagem</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Políticas de Privacidade</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Termos de Serviço</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Documentação</a>
+                <span class="footer-separator">•</span>
+                <a href="https://api.whatsapp.com/send/?phone=16992861029&text&type=phone_number&app_absent=0" target="_blank">Contato</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ClickAndPlay Systems. Todos os direios reservados.</p>
+                <p class="footer-credit">Acesse nosso <a href="https://www.instagram.com/click.andplay_/" target="_blank" rel="noopener nofollow">Instagram</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js "></script>
+</body>
+</html>
